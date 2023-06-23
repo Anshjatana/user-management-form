@@ -1,0 +1,55 @@
+.App h1 {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(85, 2, 16, 1) 100%
+  );
+}
+/* Media queries */
+
+@media (max-width: 634px) {
+  .App h1 {
+    font-size: 25px;
+  }
+  .form-group {
+    font-size: 1.5rem;
+  }
+  #name {
+    width: 250px;
+    font-size: 1rem;
+  }
+  #email {
+    width: 257px;
+    font-size: 1rem;
+  }
+  #password {
+    width: 214px;
+    font-size: 1rem;
+  }
+  #register-btn {
+    padding: 7px;
+  }
+  .error {
+    font-size: 15px;
+  }
+}
+@media (max-width: 486px) {
+  .App h1 {
+    font-size: 18px;
+  }
+  .error {
+    font-size: 13px;
+  }
+  #name {
+    width: 215px;
+    font-size: 0.75rem;
+  }
+  #email {
+    width: 222px;
+    font-size: 0.75rem;
+  }
+  #password {
+    width: 180px;
+    font-size: 0.75rem;
+  }
+}
