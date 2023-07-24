@@ -49,7 +49,7 @@ const App = () => {
       return;
     }
 
-    // Form submission logic (API call or other actions)
+    
     console.log("Form submitted successfully:", formData);
 
     // Clear form fields and errors
@@ -65,7 +65,7 @@ const App = () => {
       password: "",
     });
 
-    // Displaying success message (you can implement this in your UI)
+    
     alert("Your registration is successful!");
   };
 
